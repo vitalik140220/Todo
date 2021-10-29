@@ -1,4 +1,0 @@
-{
-	"port": 5000,
-	"url": "mongodb+srv://Vitalik:z1x2c3@cluster0.kkajj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-}
