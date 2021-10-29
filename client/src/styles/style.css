@@ -1,0 +1,164 @@
+body {
+  margin: 0 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  height: 100%;
+}
+
+.firstScreen {
+  height: 100%;
+}
+
+.firstScreen__conteiner {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstScreen__register {
+  margin: 0 0 20px 0;
+}
+
+.firstScreen__register button {
+  width: 200px;
+  height: 50px;
+  background-color: #ff5656;
+  border: 1px solid rgba(0, 0, 0, 0.438);
+  border-radius: 10px;
+}
+
+.firstScreen__register button:hover {
+  background-color: #ffb5b5;
+}
+
+.firstScreen__login button {
+  width: 200px;
+  height: 50px;
+  background-color: #ff5656;
+  border: 1px solid rgba(0, 0, 0, 0.438);
+  border-radius: 10px;
+}
+
+.firstScreen__login button:hover {
+  background-color: #ffb5b5;
+}
+
+.register-screen__container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-screen__title {
+  font-size: 40px;
+}
+
+.register-screen__email {
+  margin: 100px 0 0 0;
+  width: 40%;
+}
+
+.register-screen__password {
+  margin: 30px 0 0 0;
+  width: 40%;
+}
+
+.register-screen__btn {
+  margin: 40px 0 0 0;
+  width: 150px;
+  height: 30px;
+}
+
+.register-screen__btn button {
+  width: 100%;
+  height: 100%;
+}
+
+.input__container {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input__title {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+.input__input {
+  width: 100%;
+  height: 20px;
+}
+
+.login-screen__container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-screen__title {
+  font-size: 40px;
+}
+
+.login-screen__email {
+  margin: 100px 0 0 0;
+  width: 40%;
+}
+
+.login-screen__password {
+  margin: 30px 0 0 0;
+  width: 40%;
+}
+
+.login-screen__btn {
+  margin: 40px 0 0 0;
+  width: 150px;
+  height: 30px;
+}
+
+.login-screen__btn button {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
